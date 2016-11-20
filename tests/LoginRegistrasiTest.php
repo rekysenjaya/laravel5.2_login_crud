@@ -14,11 +14,6 @@ class LoginRegistrasiTest extends TestCase {
         $this->setDB();
     }
 
-    public function testBasicExample() {
-        $this->visit('/')
-                ->see('Laravel 5');
-    }
-
     public function testRegistrasi() {
         $this->visit('/users/create')
                 ->type('Reky', 'name')
