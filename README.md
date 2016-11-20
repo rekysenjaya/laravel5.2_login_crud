@@ -10,6 +10,13 @@ Login, Register dan CRUD for Laravel 5.2
 5. ketik "$ php artisan migrate " untuk migrasi database 
 6. ketik "$ php artisan db:seed" untuk memasukan data ke database
 
+## Run
+
+
+1. buka commend line dan arahkan ke dalam folder file laravel
+2. ketik "$ php artisan serve" untuk menjalankan laravel 5.2 ini
+3. Buka di http://localhost:8000/login
+
 ## Composer
 
 [Composer](https://getcomposer.org/) adalah dependency manager khusus PHP yang memiliki fungsionalitas 
